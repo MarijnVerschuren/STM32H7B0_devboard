@@ -1,2 +1,2 @@
-# micro_STM32H750VBT6
-micro devboard featuring the STM32H750VBT6
+# STM32H7B0_devboard
+devboard featuring the STM32H7B0VBT6

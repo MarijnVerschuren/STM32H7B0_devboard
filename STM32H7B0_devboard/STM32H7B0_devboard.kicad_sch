@@ -7,7 +7,7 @@
 	(title_block
 		(title "STM32H7B0_devboard")
 		(date "2024-04-19")
-		(rev "V1.0")
+		(rev "V0.2")
 		(company "Marijn Verschuren")
 	)
 	(lib_symbols
@@ -7536,6 +7536,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -8967,6 +9069,12 @@
 		(uuid "65a421af-3c43-4f56-85ae-424932f3a40c")
 	)
 	(junction
+		(at 172.72 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c4a0911-2006-47ed-bdaf-e9f6fb1b7d61")
+	)
+	(junction
 		(at 158.75 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9031,6 +9139,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "967a3a79-8891-487e-bab1-40e8d0cd2e2d")
+	)
+	(junction
+		(at 172.72 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c01e7ce-c016-4273-b07b-43f14691ff7e")
 	)
 	(junction
 		(at 248.92 105.41)
@@ -9109,6 +9223,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d21808e5-5fd0-4d01-a996-3cf03358e2bc")
+	)
+	(junction
+		(at 172.72 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da7b19df-4035-4701-a8e5-afa408eb04d1")
 	)
 	(junction
 		(at 127 247.65)
@@ -9663,6 +9783,26 @@
 			(type default)
 		)
 		(uuid "1079e9a7-c1c2-4a01-b1dc-73b2ae420d94")
+	)
+	(wire
+		(pts
+			(xy 168.91 217.17) (xy 172.72 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136ef14e-7a83-48d0-8375-819517fa6abb")
+	)
+	(wire
+		(pts
+			(xy 172.72 234.95) (xy 172.72 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d013e0-d805-4493-9c2b-4d2e4ee8a4d4")
 	)
 	(wire
 		(pts
@@ -10316,6 +10456,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 217.17) (xy 172.72 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5982f15c-a7fb-4411-a2d7-acdf34d86498")
+	)
+	(wire
+		(pts
 			(xy 274.32 27.94) (xy 276.86 27.94)
 		)
 		(stroke
@@ -10486,6 +10636,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 234.95) (xy 172.72 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73327533-96d7-4a94-9dc7-e22c667a8c0d")
+	)
+	(wire
+		(pts
 			(xy 184.15 106.68) (xy 189.23 106.68)
 		)
 		(stroke
@@ -10523,6 +10683,16 @@
 			(type default)
 		)
 		(uuid "79bf2126-c594-4726-a86d-3f04a40b96c1")
+	)
+	(wire
+		(pts
+			(xy 172.72 208.28) (xy 172.72 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79cbb600-8439-4880-a894-bbe72a4e446d")
 	)
 	(wire
 		(pts
@@ -11066,6 +11236,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 226.06) (xy 172.72 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b12cdc40-1fd0-4f27-ba93-0e697627b0bd")
+	)
+	(wire
+		(pts
 			(xy 261.62 167.64) (xy 264.16 167.64)
 		)
 		(stroke
@@ -11246,6 +11426,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 226.06) (xy 172.72 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfabd486-d0a5-47be-8dea-43580494e0fe")
+	)
+	(wire
+		(pts
 			(xy 269.24 161.29) (xy 271.78 161.29)
 		)
 		(stroke
@@ -11393,6 +11583,16 @@
 			(type default)
 		)
 		(uuid "cc84af28-3225-4699-9c3b-4094e2ec19c9")
+	)
+	(wire
+		(pts
+			(xy 168.91 208.28) (xy 172.72 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd3aa6f0-f696-4ac1-9936-3d35ba5f86e8")
 	)
 	(wire
 		(pts
@@ -11955,6 +12155,18 @@
 		(uuid d1433de8-e7c9-47f7-bd25-c4e6bf687391)
 	)
 	(rectangle
+		(start 160.02 198.12)
+		(end 176.53 246.38)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e16b62e1-c3fd-43dd-ae76-ad7cde07e0d2)
+	)
+	(rectangle
 		(start 214.63 50.8)
 		(end 284.48 97.79)
 		(stroke
@@ -11986,15 +12198,35 @@
 		)
 		(uuid "2610eca7-7527-4d6a-9c64-4e1ed49d09e3")
 	)
-	(text "TODO:\nCheck the LEDA volatge\nMAX: 3v2"
+	(text "TODO:\nCheck the LEDA volatge\nMAX: 3v2\n\nDAC and opamp buffer\n(default 0V)"
 		(exclude_from_sim no)
-		(at 137.922 213.36 0)
+		(at 137.922 216.662 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "33cc0351-0f0a-440c-ac70-6885114f203e")
+	)
+	(text "TODO:\nBreakout??"
+		(exclude_from_sim no)
+		(at 216.408 226.568 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "408e88c7-d920-4e51-a0ee-1625735ddd70")
+	)
+	(text "Mount"
+		(exclude_from_sim no)
+		(at 163.83 200.406 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "45f70625-ba9e-4c4a-80a2-c3fd1040d41d")
 	)
 	(text "What does this do?"
 		(exclude_from_sim no)
@@ -12046,7 +12278,7 @@
 		)
 		(uuid "70b18999-2a62-483c-8673-1b5a9fc3e3f9")
 	)
-	(text "TODO:\nCMOS instead of Crystal (more precise and lower power!)"
+	(text "TODO:\noscilator instead of Crystal (more precise and lower power!)"
 		(exclude_from_sim no)
 		(at 250.698 56.134 0)
 		(effects
@@ -12085,6 +12317,16 @@
 			)
 		)
 		(uuid "7e479441-2b0d-49e9-9412-b80ffa415bf4")
+	)
+	(text "TODO:\nUSB common mode chocke FL2 (O805USB-902ML)\n"
+		(exclude_from_sim no)
+		(at 267.97 230.886 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "832ca333-9a83-4f73-af0e-14403b9f7a3c")
 	)
 	(text "D0-D7"
 		(exclude_from_sim no)
@@ -14670,6 +14912,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 166.37 234.95 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "021e8def-6380-4264-a4e5-a8a7bea90138")
+		(property "Reference" "H4"
+			(at 165.1 231.902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mount"
+			(at 164.846 237.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
+			(at 166.37 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 166.37 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35775d3e-7bfc-46a0-932f-c6678a992dbc")
+		)
+		(instances
+			(project "STM32H7B0_devboard"
+				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Plug_USB2.0")
 		(at 151.13 157.48 0)
 		(unit 1)
@@ -14863,7 +15169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 276.86 77.47 0)
 			(effects
 				(font
@@ -15127,7 +15433,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 170.18 62.23 90)
 			(effects
 				(font
@@ -15328,7 +15634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 177.8 31.75 0)
 			(effects
 				(font
@@ -15481,7 +15787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 152.4 31.75 0)
 			(effects
 				(font
@@ -15749,7 +16055,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 153.67 64.77 0)
 			(effects
 				(font
@@ -15819,7 +16125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 227.33 31.75 0)
 			(effects
 				(font
@@ -16104,7 +16410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 171.45 31.75 0)
 			(effects
 				(font
@@ -16305,7 +16611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 195.58 69.85 0)
 			(effects
 				(font
@@ -16374,7 +16680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 224.79 80.01 0)
 			(effects
 				(font
@@ -17383,7 +17689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 184.15 110.49 0)
 			(effects
 				(font
@@ -17452,7 +17758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 219.71 31.75 0)
 			(effects
 				(font
@@ -17588,7 +17894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 36.83 162.56 0)
 			(effects
 				(font
@@ -18616,7 +18922,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 234.95 105.41 90)
 			(effects
 				(font
@@ -19305,7 +19611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 245.11 80.01 0)
 			(effects
 				(font
@@ -19342,6 +19648,70 @@
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 166.37 208.28 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "80884108-26fa-4e5f-87bf-909b122cf841")
+		(property "Reference" "H1"
+			(at 165.1 205.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mount"
+			(at 164.846 211.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
+			(at 166.37 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 166.37 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb57a071-592f-442f-aefa-8f4212583ace")
+		)
+		(instances
+			(project "STM32H7B0_devboard"
+				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -19506,7 +19876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 176.53 110.49 0)
 			(effects
 				(font
@@ -19839,7 +20209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 256.54 77.47 0)
 			(effects
 				(font
@@ -19947,6 +20317,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 166.37 217.17 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9171df08-6629-4659-81f0-79146b8fe5ed")
+		(property "Reference" "H2"
+			(at 165.1 214.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mount"
+			(at 164.846 219.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
+			(at 166.37 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 166.37 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4f3f42a-c06d-4f4f-9139-ce2dc9cd57e3")
+		)
+		(instances
+			(project "STM32H7B0_devboard"
+				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 158.75 31.75 0)
 		(unit 1)
@@ -19973,7 +20407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 158.75 31.75 0)
 			(effects
 				(font
@@ -20110,7 +20544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 165.1 31.75 0)
 			(effects
 				(font
@@ -20309,7 +20743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 43.18 162.56 0)
 			(effects
 				(font
@@ -20751,7 +21185,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 261.62 105.41 90)
 			(effects
 				(font
@@ -21260,6 +21694,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 166.37 226.06 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc051a2f-32cb-4dfb-ab3e-aa763212f63b")
+		(property "Reference" "H3"
+			(at 165.1 223.012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mount"
+			(at 164.846 228.854 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
+			(at 166.37 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 166.37 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "146f31a5-ffe1-4a14-bc71-e24afd6cb5f5")
+		)
+		(instances
+			(project "STM32H7B0_devboard"
+				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 153.67 119.38 90)
 		(unit 1)
@@ -21286,7 +21784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 153.67 119.38 0)
 			(effects
 				(font
@@ -21688,7 +22186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 184.15 31.75 0)
 			(effects
 				(font
@@ -22121,6 +22619,71 @@
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6e48768-fcdb-4f77-881c-beae564ef759")
+		(property "Reference" "#PWR045"
+			(at 172.72 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b54e986a-239c-4dc8-872e-21306ff84a45")
+		)
+		(instances
+			(project "STM32H7B0_devboard"
+				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -22612,7 +23175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 146.05 31.75 0)
 			(effects
 				(font
@@ -22679,7 +23242,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 182.88 67.818 90)
 			(effects
 				(font

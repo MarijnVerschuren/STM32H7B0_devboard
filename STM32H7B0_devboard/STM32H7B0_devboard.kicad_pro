@@ -576,6 +576,14 @@
     [
       "0c02ba0f-c40f-484f-a270-dfb4a249f2e6",
       "Root"
+    ],
+    [
+      "f5149cbb-8fa8-437a-8f6e-43d0a2b09eff",
+      "power"
+    ],
+    [
+      "b477b51e-f069-4c33-a922-9557e4b10dad",
+      "USB"
     ]
   ],
   "text_variables": {}

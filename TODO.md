@@ -8,3 +8,14 @@ SFDP protocol (for flashes)!!!
 Inductors!!!
 
 Ferrite bead after buck!!
+
+LC circuit: watch out for temp and decay, (X7R, X5R, ... capacitors)
+
+
+
+Look at TI documents!!
+
+
+
+
+

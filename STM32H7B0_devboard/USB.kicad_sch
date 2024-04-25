@@ -1902,7 +1902,7 @@
 	)
 	(text "OUT\n"
 		(exclude_from_sim no)
-		(at 273.05 19.05 0)
+		(at 260.35 19.304 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1966,7 +1966,7 @@
 	)
 	(hierarchical_label "VBUS"
 		(shape input)
-		(at 273.05 25.4 0)
+		(at 260.35 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1990,7 +1990,7 @@
 	)
 	(hierarchical_label "USB_DM"
 		(shape input)
-		(at 273.05 29.21 0)
+		(at 260.35 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2014,7 +2014,7 @@
 	)
 	(hierarchical_label "USB_DP"
 		(shape input)
-		(at 273.05 33.02 0)
+		(at 260.35 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font

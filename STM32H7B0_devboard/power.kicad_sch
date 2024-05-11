@@ -2447,7 +2447,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 110.49 33.02 0)
 			(effects
 				(font
@@ -2868,7 +2868,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 55.88 43.18 0)
 			(effects
 				(font
@@ -3000,7 +3000,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 93.98 83.82 0)
 			(effects
 				(font
@@ -3204,7 +3204,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 64.77 78.74 0)
 			(effects
 				(font
@@ -3222,7 +3222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" "MPL1608S2R2MHT"
 			(at 64.77 78.74 0)
 			(effects
 				(font
@@ -3535,7 +3535,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 88.9 78.74 0)
 			(effects
 				(font

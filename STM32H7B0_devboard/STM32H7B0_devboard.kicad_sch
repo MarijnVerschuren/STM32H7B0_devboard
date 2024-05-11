@@ -13248,16 +13248,6 @@
 		)
 		(uuid "6ca30374-102e-43e3-80b1-f39e038dcad1")
 	)
-	(text "TODO:\noscilator instead of Crystal (more precise and lower power!)"
-		(exclude_from_sim no)
-		(at 173.228 56.134 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "73aa220a-1d8e-417c-9fcc-86971282a8b8")
-	)
 	(text "LCD"
 		(exclude_from_sim no)
 		(at 88.9 200.152 0)
@@ -15628,7 +15618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.58 223.52 0)
 			(effects
 				(font
@@ -15646,7 +15636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "0603WAF0000T5E"
 			(at 68.58 223.52 0)
 			(effects
 				(font
@@ -15960,7 +15950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 231.14 72.39 0)
 			(effects
 				(font
@@ -16029,7 +16019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 231.14 52.07 0)
 			(effects
 				(font
@@ -16096,7 +16086,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 189.23 129.54 0)
 			(effects
 				(font
@@ -16165,7 +16155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 231.14 100.33 0)
 			(effects
 				(font
@@ -16611,7 +16601,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 34.29 274.32 0)
 			(effects
 				(font
@@ -16678,7 +16668,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 49.53 274.32 0)
 			(effects
 				(font
@@ -16811,7 +16801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 231.14 85.09 0)
 			(effects
 				(font
@@ -17012,7 +17002,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 66.04 245.11 0)
 			(effects
 				(font
@@ -17079,7 +17069,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed_Socket"
 			(at 168.91 180.34 0)
 			(effects
 				(font
@@ -17605,7 +17595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 231.14 92.71 0)
 			(effects
 				(font
@@ -17672,7 +17662,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 151.13 163.83 0)
 			(effects
 				(font
@@ -18310,7 +18300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 231.14 36.83 0)
 			(effects
 				(font
@@ -18379,7 +18369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom:FPC_30_soldered"
 			(at 121.92 200.66 0)
 			(effects
 				(font
@@ -18595,7 +18585,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 152.4 265.43 0)
 			(effects
 				(font
@@ -18613,7 +18603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" "SDCL1608C39NJTDF"
 			(at 152.4 265.43 0)
 			(effects
 				(font
@@ -18664,7 +18654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 167.64 68.58 0)
 			(effects
 				(font
@@ -19042,7 +19032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 231.14 46.99 0)
 			(effects
 				(font
@@ -19243,7 +19233,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 45.72 269.24 0)
 			(effects
 				(font
@@ -19310,7 +19300,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.69 250.19 0)
 			(effects
 				(font
@@ -19377,7 +19367,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 189.23 120.65 0)
 			(effects
 				(font
@@ -19940,7 +19930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 231.14 49.53 0)
 			(effects
 				(font
@@ -20137,7 +20127,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 160.02 39.37 0)
 			(effects
 				(font
@@ -20205,7 +20195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.58 219.71 0)
 			(effects
 				(font
@@ -20223,7 +20213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "0603WAF0000T5E"
 			(at 68.58 219.71 0)
 			(effects
 				(font
@@ -20272,7 +20262,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 38.1 208.28 0)
 			(effects
 				(font
@@ -20339,7 +20329,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 157.48 73.66 0)
 			(effects
 				(font
@@ -20348,7 +20338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403291504_YXC-X322525MSB4SI_C13740.pdf"
 			(at 157.48 73.66 0)
 			(effects
 				(font
@@ -20357,7 +20347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(property "Description" "X322525MSB4SI"
 			(at 157.48 73.66 0)
 			(effects
 				(font
@@ -20478,7 +20468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 231.14 34.29 0)
 			(effects
 				(font
@@ -20546,7 +20536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 231.14 67.31 0)
 			(effects
 				(font
@@ -20614,7 +20604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 231.14 82.55 0)
 			(effects
 				(font
@@ -20944,7 +20934,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 189.23 138.43 0)
 			(effects
 				(font
@@ -21082,7 +21072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 33.02 219.71 0)
 			(effects
 				(font
@@ -21100,7 +21090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "0603WAF0000T5E"
 			(at 33.02 219.71 0)
 			(effects
 				(font
@@ -21218,7 +21208,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 189.23 147.32 0)
 			(effects
 				(font
@@ -21596,7 +21586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 231.14 102.87 0)
 			(effects
 				(font
@@ -21732,7 +21722,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 83.82 242.57 0)
 			(effects
 				(font
@@ -22000,7 +21990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -22069,7 +22059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 231.14 95.25 0)
 			(effects
 				(font
@@ -22206,7 +22196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 33.02 215.9 0)
 			(effects
 				(font
@@ -22224,7 +22214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "0603WAF0000T5E"
 			(at 33.02 215.9 0)
 			(effects
 				(font
@@ -22671,7 +22661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 262.89 95.25 0)
 			(effects
 				(font
@@ -22738,7 +22728,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:PowerIntegrations_SO-8"
 			(at 53.34 208.28 0)
 			(effects
 				(font
@@ -22956,7 +22946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.58 215.9 0)
 			(effects
 				(font
@@ -22974,7 +22964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "0603WAF0000T5E"
 			(at 68.58 215.9 0)
 			(effects
 				(font
@@ -23024,7 +23014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 231.14 105.41 0)
 			(effects
 				(font
@@ -23093,7 +23083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 199.39 64.77 0)
 			(effects
 				(font
@@ -23160,7 +23150,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 151.13 170.18 0)
 			(effects
 				(font
@@ -23422,7 +23412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 33.02 212.09 0)
 			(effects
 				(font
@@ -23440,7 +23430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "0603WAF0000T5E"
 			(at 33.02 212.09 0)
 			(effects
 				(font
@@ -23489,7 +23479,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 38.1 269.24 0)
 			(effects
 				(font
@@ -23556,7 +23546,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 			(at 189.23 71.12 0)
 			(effects
 				(font
@@ -23565,7 +23555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2210261730_YXC-XKXGI-SUA-32-768K_C5213671.pdf"
 			(at 189.23 71.12 0)
 			(effects
 				(font
@@ -23574,7 +23564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal"
+		(property "Description" "XKXGI-SUA-32.768K"
 			(at 189.23 71.12 0)
 			(effects
 				(font
@@ -23693,7 +23683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 231.14 115.57 0)
 			(effects
 				(font
@@ -24031,7 +24021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 163.83 105.41 0)
 			(effects
 				(font
@@ -24229,7 +24219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 231.14 54.61 0)
 			(effects
 				(font
@@ -24761,7 +24751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 231.14 74.93 0)
 			(effects
 				(font
@@ -24830,7 +24820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 231.14 69.85 0)
 			(effects
 				(font

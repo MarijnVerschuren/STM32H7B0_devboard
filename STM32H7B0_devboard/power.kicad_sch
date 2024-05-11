@@ -2366,7 +2366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08d3a4e8-96da-4cf0-bc9c-474e9cf1b7d0")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR043"
 			(at 93.98 95.25 0)
 			(effects
 				(font
@@ -2416,7 +2416,7 @@
 		(instances
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6/f5149cbb-8fa8-437a-8f6e-43d0a2b09eff"
-					(reference "#PWR060")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2431,7 +2431,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09973dfd-702d-4d67-92bd-8f39b3aa7500")
-		(property "Reference" "U7"
+		(property "Reference" "U4"
 			(at 115.57 26.67 0)
 			(effects
 				(font
@@ -2456,7 +2456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304241919_Texas-Instruments-TPS563201DDCR_C116592.pdf"
 			(at 110.49 33.02 0)
 			(effects
 				(font
@@ -2495,7 +2495,7 @@
 		(instances
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6/f5149cbb-8fa8-437a-8f6e-43d0a2b09eff"
-					(reference "U7")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -2510,7 +2510,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "298e35ec-3981-45fc-b2e5-6708b8bf02ca")
-		(property "Reference" "C28"
+		(property "Reference" "C20"
 			(at 87.122 32.512 0)
 			(effects
 				(font
@@ -2564,7 +2564,7 @@
 		(instances
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6/f5149cbb-8fa8-437a-8f6e-43d0a2b09eff"
-					(reference "C28")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -2579,7 +2579,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a70d3f0-7e88-4cca-a48c-2c9ea79d8d3a")
-		(property "Reference" "C29"
+		(property "Reference" "C22"
 			(at 71.882 80.772 0)
 			(effects
 				(font
@@ -2633,7 +2633,7 @@
 		(instances
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6/f5149cbb-8fa8-437a-8f6e-43d0a2b09eff"
-					(reference "C29")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -2648,7 +2648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cfc9fcc-e825-4ee0-adef-641c04e56320")
-		(property "Reference" "C27"
+		(property "Reference" "C19"
 			(at 80.772 32.512 0)
 			(effects
 				(font
@@ -2702,7 +2702,7 @@
 		(instances
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6/f5149cbb-8fa8-437a-8f6e-43d0a2b09eff"
-					(reference "C27")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -2717,7 +2717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e63990a-4350-4a1f-bf65-ba937abc3086")
-		(property "Reference" "C26"
+		(property "Reference" "C18"
 			(at 72.39 26.67 0)
 			(effects
 				(font
@@ -2733,7 +2733,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NFM18PC104R1C3D:NFM18PC104R1C3D_MUR"
 			(at 72.39 31.75 90)
 			(effects
 				(font
@@ -2742,7 +2742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811021520_Murata-Electronics-NFM18PC104R1C3D_C111493.pdf"
 			(at 72.39 31.75 90)
 			(effects
 				(font
@@ -2751,12 +2751,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NFM31KC104R2A3L"
+		(property "Description" "NFM18PC104R1C3D"
 			(at 72.39 23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2771,7 +2772,7 @@
 		(instances
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6/f5149cbb-8fa8-437a-8f6e-43d0a2b09eff"
-					(reference "C26")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -2786,7 +2787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61563d33-8c61-426e-9dbd-5aec22d9a134")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR042"
 			(at 74.93 92.71 0)
 			(effects
 				(font
@@ -2836,7 +2837,7 @@
 		(instances
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6/f5149cbb-8fa8-437a-8f6e-43d0a2b09eff"
-					(reference "#PWR062")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -2851,7 +2852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d728aa0-0a81-44c1-8ac8-18a122b6c7f8")
-		(property "Reference" "R36"
+		(property "Reference" "R19"
 			(at 53.34 42.926 90)
 			(effects
 				(font
@@ -2903,7 +2904,7 @@
 		(instances
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6/f5149cbb-8fa8-437a-8f6e-43d0a2b09eff"
-					(reference "R36")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2918,7 +2919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b37997b-51a4-442b-9893-f7d1a8d9d37d")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR041"
 			(at 64.77 54.61 0)
 			(effects
 				(font
@@ -2968,7 +2969,7 @@
 		(instances
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6/f5149cbb-8fa8-437a-8f6e-43d0a2b09eff"
-					(reference "#PWR061")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -2983,7 +2984,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86be78cd-18cc-4352-b515-129a0d59b1a4")
-		(property "Reference" "R35"
+		(property "Reference" "R21"
 			(at 91.694 83.82 90)
 			(effects
 				(font
@@ -3035,7 +3036,7 @@
 		(instances
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6/f5149cbb-8fa8-437a-8f6e-43d0a2b09eff"
-					(reference "R35")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -3050,7 +3051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96b431b2-db7b-4cbc-b23a-25fd38cbbd39")
-		(property "Reference" "F3"
+		(property "Reference" "F1"
 			(at 44.45 26.67 90)
 			(effects
 				(font
@@ -3103,7 +3104,7 @@
 		(instances
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6/f5149cbb-8fa8-437a-8f6e-43d0a2b09eff"
-					(reference "F3")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -3118,7 +3119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98a47cdc-8b63-43a1-941c-d0fd4aa60b3c")
-		(property "Reference" "C22"
+		(property "Reference" "C21"
 			(at 91.948 54.102 90)
 			(effects
 				(font
@@ -3172,7 +3173,7 @@
 		(instances
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6/f5149cbb-8fa8-437a-8f6e-43d0a2b09eff"
-					(reference "C22")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -3187,7 +3188,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a46b04d2-6d6a-4c24-8f04-ac5cd1e4f801")
-		(property "Reference" "L4"
+		(property "Reference" "L2"
 			(at 64.77 76.2 90)
 			(effects
 				(font
@@ -3239,7 +3240,7 @@
 		(instances
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6/f5149cbb-8fa8-437a-8f6e-43d0a2b09eff"
-					(reference "L4")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -3254,7 +3255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4ace015-bf2f-451e-a50c-665c11e75eab")
-		(property "Reference" "C30"
+		(property "Reference" "C23"
 			(at 79.502 80.772 0)
 			(effects
 				(font
@@ -3308,7 +3309,7 @@
 		(instances
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6/f5149cbb-8fa8-437a-8f6e-43d0a2b09eff"
-					(reference "C30")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -3323,7 +3324,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c361ff2a-c66f-47cc-a7f6-4a98ce80aaa3")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG05"
 			(at 86.36 27.305 0)
 			(effects
 				(font
@@ -3373,7 +3374,7 @@
 		(instances
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6/f5149cbb-8fa8-437a-8f6e-43d0a2b09eff"
-					(reference "#FLG07")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -3388,7 +3389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2fb1dee-a2b9-437c-bb0d-54d27b7d2398")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR040"
 			(at 101.6 44.45 0)
 			(effects
 				(font
@@ -3438,7 +3439,7 @@
 		(instances
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6/f5149cbb-8fa8-437a-8f6e-43d0a2b09eff"
-					(reference "#PWR051")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3518,7 +3519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eabed9cc-4f22-4a55-b7c4-a888ced234bf")
-		(property "Reference" "R34"
+		(property "Reference" "R20"
 			(at 89.154 76.2 90)
 			(effects
 				(font
@@ -3570,7 +3571,7 @@
 		(instances
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6/f5149cbb-8fa8-437a-8f6e-43d0a2b09eff"
-					(reference "R34")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -3585,7 +3586,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb2dc048-6359-422b-b096-c721a3a06d75")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 61.214 31.496 0)
 			(effects
 				(font
@@ -3594,7 +3595,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9v1"
+		(property "Value" "10v"
 			(at 66.04 31.242 0)
 			(effects
 				(font
@@ -3603,7 +3604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 63.5 33.02 90)
 			(effects
 				(font
@@ -3612,7 +3613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Nexperia-BZX585-B10-115_C455021.pdf"
 			(at 63.5 33.02 90)
 			(effects
 				(font
@@ -3621,12 +3622,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BZX585-B9v1"
+		(property "Description" "BZX585-B10"
 			(at 63.5 21.082 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3638,7 +3640,7 @@
 		(instances
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6/f5149cbb-8fa8-437a-8f6e-43d0a2b09eff"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3653,7 +3655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbce5161-1b90-471a-9b62-1b9bba51d875")
-		(property "Reference" "Q4"
+		(property "Reference" "Q2"
 			(at 55.88 25.654 90)
 			(effects
 				(font
@@ -3697,6 +3699,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -3711,7 +3714,7 @@
 		(instances
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6/f5149cbb-8fa8-437a-8f6e-43d0a2b09eff"
-					(reference "Q4")
+					(reference "Q2")
 					(unit 1)
 				)
 			)

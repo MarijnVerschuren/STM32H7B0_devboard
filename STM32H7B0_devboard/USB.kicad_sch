@@ -2012,6 +2012,36 @@
 		)
 		(uuid "39a44e9b-6fab-4227-914a-edbb0a179b2b")
 	)
+	(text "USB_DM"
+		(exclude_from_sim no)
+		(at 260.604 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6b51e67d-34d0-4536-a118-c109d43f4f66")
+	)
+	(text "USB_DP"
+		(exclude_from_sim no)
+		(at 260.604 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "789f286c-bb8a-4a19-adc6-e1ebb54147a0")
+	)
+	(text "VBUS"
+		(exclude_from_sim no)
+		(at 260.35 25.654 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "99cd071a-ae3c-4a37-b9ce-6395eb0184cf")
+	)
 	(text "CC1"
 		(exclude_from_sim no)
 		(at 43.18 25.146 0)
@@ -2021,18 +2051,6 @@
 			)
 		)
 		(uuid "a95b8ade-a291-4ef6-b951-54a3f89703c3")
-	)
-	(hierarchical_label "VBUS"
-		(shape input)
-		(at 260.35 25.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0b4f072d-1e12-4be8-bd30-826b14da11a8")
 	)
 	(hierarchical_label "USB_DP"
 		(shape input)
@@ -2046,18 +2064,6 @@
 		)
 		(uuid "0e91c51e-05f7-4031-917f-ca619ec1936b")
 	)
-	(hierarchical_label "USB_DM"
-		(shape input)
-		(at 260.35 29.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "43d5eb56-8bfb-4fe9-be2b-a604ecc705b2")
-	)
 	(hierarchical_label "VBUS"
 		(shape input)
 		(at 69.85 22.86 0)
@@ -2069,18 +2075,6 @@
 			(justify left)
 		)
 		(uuid "66854ee4-c256-496b-86af-4f550705915f")
-	)
-	(hierarchical_label "USB_DP"
-		(shape input)
-		(at 260.35 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e040b9b4-bdae-40fe-a37c-be0fcd436394")
 	)
 	(hierarchical_label "USB_DM"
 		(shape input)
@@ -2471,7 +2465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 50.8 27.94 0)
 			(effects
 				(font

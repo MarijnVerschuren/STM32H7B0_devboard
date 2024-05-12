@@ -2170,6 +2170,16 @@
 		)
 		(uuid "09b8566f-f193-4a7f-8337-ddb5f2466a1c")
 	)
+	(text "VOUT_3v3"
+		(exclude_from_sim no)
+		(at 260.604 25.146 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3cddfee3-e2a4-4731-8ed1-802b03faddf2")
+	)
 	(text "IN"
 		(exclude_from_sim no)
 		(at 247.65 19.05 0)
@@ -2179,6 +2189,16 @@
 			)
 		)
 		(uuid "8381ad17-aa8d-4a3a-9528-6f1cce066327")
+	)
+	(text "VIN"
+		(exclude_from_sim no)
+		(at 247.65 24.892 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d55bda86-5615-43d3-a65f-1fbcd8d009b8")
 	)
 	(text "TODO:\nimplement Vmax (19V)"
 		(exclude_from_sim no)
@@ -2244,27 +2264,6 @@
 		)
 		(uuid "a7aec54a-9c81-4252-aa87-1b71de07b992")
 	)
-	(label "BUCK_EN"
-		(at 119.38 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b3be7617-fdf1-4a4f-907f-e3c8a0bce632")
-		(property "Netclass" ""
-			(at 119.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(label "BUCK_SW"
 		(at 102.87 34.29 180)
 		(fields_autoplaced yes)
@@ -2298,6 +2297,17 @@
 		)
 		(uuid "d95dd9d0-1fbd-4bba-b523-30ddc919b425")
 	)
+	(label "BUCK_EN"
+		(at 119.38 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d96cbff7-5f5c-4fb6-bb39-22e080335832")
+	)
 	(label "BUCK_BST"
 		(at 119.38 30.48 0)
 		(fields_autoplaced yes)
@@ -2308,18 +2318,6 @@
 			(justify left bottom)
 		)
 		(uuid "faa86769-cd07-4735-9620-5a1f36541e26")
-	)
-	(hierarchical_label "VOUT_3v3"
-		(shape input)
-		(at 260.35 25.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "04fe5a4e-33fa-4519-83af-232091db22a8")
 	)
 	(hierarchical_label "VIN"
 		(shape input)
@@ -2332,18 +2330,6 @@
 			(justify right)
 		)
 		(uuid "8be6c341-f47a-4641-a785-805a83069d35")
-	)
-	(hierarchical_label "VIN"
-		(shape input)
-		(at 247.65 25.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "91530316-f3ea-4059-9856-1d696fb54e79")
 	)
 	(hierarchical_label "VOUT_3v3"
 		(shape input)
@@ -2868,7 +2854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 55.88 43.18 0)
 			(effects
 				(font
@@ -3000,7 +2986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 93.98 83.82 0)
 			(effects
 				(font
@@ -3137,7 +3123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 90.17 57.15 0)
 			(effects
 				(font
@@ -3204,7 +3190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR3015S"
 			(at 64.77 78.74 0)
 			(effects
 				(font
@@ -3222,7 +3208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MPL1608S2R2MHT"
+		(property "Description" "FNR3015S2R2MT"
 			(at 64.77 78.74 0)
 			(effects
 				(font
@@ -3535,7 +3521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 88.9 78.74 0)
 			(effects
 				(font

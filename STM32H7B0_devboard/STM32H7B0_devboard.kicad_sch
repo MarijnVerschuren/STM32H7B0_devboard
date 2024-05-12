@@ -7689,12 +7689,6 @@
 		(uuid "465f1fec-50ac-4c80-bf8e-4f28f2a861ff")
 	)
 	(junction
-		(at 123.19 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c7e02cb-a75a-4717-ad27-5b8d3f45cb69")
-	)
-	(junction
 		(at 38.1 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7969,6 +7963,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4b502c1-663f-4fd6-8afb-b314e0d6838f")
+	)
+	(junction
+		(at 161.29 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6583b11-b8d4-400b-a1bb-c9c3a9bfb060")
 	)
 	(junction
 		(at 49.53 269.24)
@@ -13656,7 +13656,7 @@
 		)
 		(uuid "3095a00b-c177-4615-b379-bcb5c3932d0d")
 	)
-	(label "A0"
+	(label "A15"
 		(at 85.09 88.9 0)
 		(fields_autoplaced yes)
 		(effects
@@ -20127,7 +20127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 160.02 39.37 0)
 			(effects
 				(font
@@ -20910,6 +20910,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 161.29 22.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "813a571a-971d-4bd1-8dd4-cfb226dc5cfe")
+		(property "Reference" "#FLG07"
+			(at 163.195 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 161.798 20.574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 161.29 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9d86eb6-8dff-432c-a94d-6838b1438efa")
+		)
+		(instances
+			(project "STM32H7B0_devboard"
+				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 189.23 138.43 90)
 		(unit 1)
@@ -21141,7 +21207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 95.25 210.82 0)
 			(effects
 				(font
@@ -23931,72 +23997,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 123.19 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de992f7c-9944-4594-90da-eb519c67aa15")
-		(property "Reference" "#FLG01"
-			(at 123.19 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 123.19 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 123.19 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a61263c-7398-4d50-9d2c-6369786c2f8b")
-		)
-		(instances
-			(project "STM32H7B0_devboard"
-				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 163.83 105.41 90)
 		(unit 1)
@@ -24021,7 +24021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 163.83 105.41 0)
 			(effects
 				(font
@@ -24548,7 +24548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 95.25 207.01 0)
 			(effects
 				(font

@@ -2012,7 +2012,7 @@
 		)
 		(uuid "39a44e9b-6fab-4227-914a-edbb0a179b2b")
 	)
-	(text "USB_DM"
+	(text "USB_DN"
 		(exclude_from_sim no)
 		(at 260.604 29.21 0)
 		(effects
@@ -2076,7 +2076,7 @@
 		)
 		(uuid "66854ee4-c256-496b-86af-4f550705915f")
 	)
-	(hierarchical_label "USB_DM"
+	(hierarchical_label "USB_DN"
 		(shape input)
 		(at 88.9 35.56 0)
 		(fields_autoplaced yes)

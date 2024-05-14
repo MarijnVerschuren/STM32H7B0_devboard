@@ -13624,7 +13624,7 @@
 		)
 		(uuid "2ec34719-c9ba-43d3-a65f-f9bc25906d6d")
 	)
-	(label "USB_DM"
+	(label "USB_DN"
 		(at 158.75 26.67 0)
 		(fields_autoplaced yes)
 		(effects
@@ -15351,7 +15351,7 @@
 		)
 		(uuid "e23a6780-5b63-4e53-8332-37ee509cc21d")
 	)
-	(label "USB_DM"
+	(label "USB_DN"
 		(at 85.09 78.74 0)
 		(fields_autoplaced yes)
 		(effects
@@ -15450,7 +15450,7 @@
 		)
 		(uuid "f1b9d8b2-4e21-40a1-bae1-9ece79c20db3")
 	)
-	(label "USB_DM"
+	(label "USB_DN"
 		(at 226.06 48.26 180)
 		(fields_autoplaced yes)
 		(effects
@@ -24957,16 +24957,6 @@
 			)
 			(uuid "c5756165-e4a2-49d9-a8da-4f091f507366")
 		)
-		(pin "USB_DM" input
-			(at 157.48 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "85c5f217-88d8-4bdd-bb08-9c98ac0bb130")
-		)
 		(pin "USB_DP" input
 			(at 157.48 27.94 0)
 			(effects
@@ -24976,6 +24966,16 @@
 				(justify right)
 			)
 			(uuid "1ab4d580-4b12-43ad-b4a3-9849a1da2754")
+		)
+		(pin "USB_DN" input
+			(at 157.48 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7e9f3c0b-7856-4826-8e6d-cd959911d9ad")
 		)
 		(instances
 			(project "STM32H7B0_devboard"

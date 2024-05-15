@@ -2460,6 +2460,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C116592"
+			(at 110.49 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "04bca120-f92f-41ed-91dd-d19732ee947c")
 		)
@@ -2541,6 +2550,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" " C9807"
+			(at 86.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "add228b2-0759-4c8f-856f-af0805bfdae5")
 		)
@@ -2602,6 +2620,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 71.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12891"
 			(at 71.12 82.55 0)
 			(effects
 				(font
@@ -2679,6 +2706,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" " C9807"
+			(at 80.01 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "314f8648-32c3-4a84-a58e-11ce9af490e1")
 		)
@@ -2739,6 +2775,15 @@
 		)
 		(property "Description" "NFM18PC104R1C3D"
 			(at 72.39 23.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C111493"
+			(at 72.39 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2881,6 +2926,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84ba98f6-a8b4-41b2-b87a-dcbaa96a0dd5")
 		)
@@ -3013,6 +3067,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 93.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb54115a-3c73-49bd-886b-b7b2daefccaf")
 		)
@@ -3073,6 +3136,15 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 44.45 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2830236"
 			(at 44.45 29.21 0)
 			(effects
 				(font
@@ -3150,6 +3222,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C110255"
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4b3c310f-f931-4b9d-92d9-7cc084fc1872")
 		)
@@ -3209,6 +3290,15 @@
 			)
 		)
 		(property "Description" "FNR3015S2R2MT"
+			(at 64.77 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C167747"
 			(at 64.77 78.74 0)
 			(effects
 				(font
@@ -3278,6 +3368,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 78.74 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12891"
 			(at 78.74 82.55 0)
 			(effects
 				(font
@@ -3548,6 +3647,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" " C23003"
+			(at 88.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "13ce703f-c9d2-4ccc-827d-2830a64fa367")
 		)
@@ -3610,6 +3718,15 @@
 		)
 		(property "Description" "BZX585-B10"
 			(at 63.5 21.082 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C455021"
+			(at 63.5 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,6 +3798,15 @@
 		)
 		(property "Description" "AO3401A"
 			(at 55.88 23.876 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C347476"
+			(at 55.88 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)

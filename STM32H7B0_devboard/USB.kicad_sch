@@ -2210,6 +2210,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2827654"
+			(at 66.04 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "e928fc30-5296-4d9f-bcf9-d71fcd5da352")
 		)
@@ -2346,6 +2355,15 @@
 			)
 		)
 		(property "Description" " TDK ACM2012-900-2P-T002 "
+			(at 78.74 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19972"
 			(at 78.74 38.1 0)
 			(effects
 				(font
@@ -2492,6 +2510,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C26000"
+			(at 50.8 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "911058eb-caf2-4d7a-abf0-faead7675ec9")
 		)
@@ -2551,6 +2578,15 @@
 			)
 		)
 		(property "Description" "SHOU HAN TYPE-C 16PIN 2MD(073) "
+			(at 30.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2765186"
 			(at 30.48 38.1 0)
 			(effects
 				(font

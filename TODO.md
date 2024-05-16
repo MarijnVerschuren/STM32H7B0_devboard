@@ -18,4 +18,9 @@ Look at TI documents!!
 
 
 
-
+# USE PCB_way
+part count
+pad count
+manufacturer number correct?
+parts correct?
+use bom.xls (edited on jlc_pcb)

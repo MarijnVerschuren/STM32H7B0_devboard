@@ -2510,7 +2510,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C26000"
+		(property "LCSC" "C23186"
 			(at 50.8 27.94 0)
 			(effects
 				(font
@@ -2541,7 +2541,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "df413011-1716-4ea0-8bee-842a74a22cb1")
 		(property "Reference" "J3"
 			(at 39.37 18.796 0)

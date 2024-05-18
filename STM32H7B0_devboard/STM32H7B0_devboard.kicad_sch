@@ -6613,188 +6613,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_Nidec_CAS-120A1"
-			(pin_names
-				(offset 1) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_Nidec_CAS-120A1"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Nidec?Copal?CAS?120A*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Nidec_CAS-120A1_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_Nidec_CAS-120A1_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Transistor_BJT:S8050"
 			(pin_names
 				(offset 0) hide)
@@ -7569,6 +7387,12 @@
 		(uuid "08797cfa-2b29-48d5-a8ec-21971cf77113")
 	)
 	(junction
+		(at 165.1 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b1edf99-a6ae-4a12-bd49-91b5b70da7e5")
+	)
+	(junction
 		(at 104.14 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8118,13 +7942,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 223.52) (xy 175.26 226.06)
+			(xy 175.26 224.79) (xy 175.26 223.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0754d5d4-4144-4d03-9c26-e094604b8929")
+		(uuid "0722518e-c889-4394-b983-95bb107d4d7c")
 	)
 	(wire
 		(pts
@@ -8208,7 +8032,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 220.98) (xy 162.56 220.98)
+			(xy 161.29 220.98) (xy 165.1 220.98)
 		)
 		(stroke
 			(width 0)
@@ -8595,6 +8419,16 @@
 			(type default)
 		)
 		(uuid "1c1cc7a9-c1e2-47b9-9710-3d8c35eaa340")
+	)
+	(wire
+		(pts
+			(xy 165.1 220.98) (xy 165.1 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c34e894-3289-480f-8a93-ce5d4dc4db9d")
 	)
 	(wire
 		(pts
@@ -9028,6 +8862,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 220.98) (xy 165.1 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d463c4b-0f9b-4ba1-bed8-3f88c7a48d3c")
+	)
+	(wire
+		(pts
 			(xy 85.09 93.98) (xy 85.09 92.71)
 		)
 		(stroke
@@ -9405,6 +9249,16 @@
 			(type default)
 		)
 		(uuid "3f6c31cc-7bf3-4003-8335-075fb7436a45")
+	)
+	(wire
+		(pts
+			(xy 165.1 218.44) (xy 166.37 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "403d32e9-7a53-444e-af9d-6a386a46cb2e")
 	)
 	(wire
 		(pts
@@ -9918,16 +9772,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 218.44) (xy 175.26 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "599520c8-87c3-4391-99ed-efcd20bcdb7e")
-	)
-	(wire
-		(pts
 			(xy 193.04 60.96) (xy 199.39 60.96)
 		)
 		(stroke
@@ -10025,6 +9869,16 @@
 			(type default)
 		)
 		(uuid "5cec548b-bcd3-4a7e-8b0a-fef6d440c1c3")
+	)
+	(wire
+		(pts
+			(xy 175.26 223.52) (xy 173.99 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d9d2996-f687-4777-bc47-86dc729a66e7")
 	)
 	(wire
 		(pts
@@ -10145,6 +9999,16 @@
 			(type default)
 		)
 		(uuid "61f8474f-2cfe-42ef-ad27-454472221e2e")
+	)
+	(wire
+		(pts
+			(xy 173.99 218.44) (xy 175.26 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6219dea6-b82b-4f45-9a7e-a48bc79790e1")
 	)
 	(wire
 		(pts
@@ -10628,6 +10492,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 215.9) (xy 175.26 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ee83c1-979b-46fe-afc3-d6ffec554418")
+	)
+	(wire
+		(pts
 			(xy 157.48 85.09) (xy 157.48 83.82)
 		)
 		(stroke
@@ -10758,6 +10632,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 209.55) (xy 175.26 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a48c88-b628-4fba-8a0e-89434f524267")
+	)
+	(wire
+		(pts
 			(xy 234.95 134.62) (xy 234.95 133.35)
 		)
 		(stroke
@@ -10815,6 +10699,16 @@
 			(type default)
 		)
 		(uuid "89c8d3fd-328f-4484-bf56-5db4c7b8e8e6")
+	)
+	(wire
+		(pts
+			(xy 165.1 223.52) (xy 166.37 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89e49dc8-77d5-4663-a5ff-8357ccd77f17")
 	)
 	(wire
 		(pts
@@ -10955,16 +10849,6 @@
 			(type default)
 		)
 		(uuid "8f39a965-7e05-4cfe-a715-1a643aae1206")
-	)
-	(wire
-		(pts
-			(xy 175.26 218.44) (xy 175.26 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f8d6b78-99f6-4c30-951d-3a7fe5d6a2b6")
 	)
 	(wire
 		(pts
@@ -12675,16 +12559,6 @@
 			(type default)
 		)
 		(uuid "ebcabfdf-d7a6-4a43-96e2-df4efe0d09f7")
-	)
-	(wire
-		(pts
-			(xy 172.72 223.52) (xy 175.26 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebe55dc3-6f5d-4de3-a3e4-cd590005da51")
 	)
 	(wire
 		(pts
@@ -15635,7 +15509,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C115304"
+		(property "LCSC" "C21189"
 			(at 68.58 223.52 0)
 			(effects
 				(font
@@ -16121,7 +15995,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25152"
+		(property "LCSC" "C25092"
 			(at 189.23 129.54 0)
 			(effects
 				(font
@@ -16333,7 +16207,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C14445"
+		(property "LCSC" "C1525"
 			(at 116.84 29.21 0)
 			(effects
 				(font
@@ -16587,7 +16461,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C14445"
+		(property "LCSC" "C1525"
 			(at 91.44 29.21 0)
 			(effects
 				(font
@@ -16663,7 +16537,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25152"
+		(property "LCSC" "C25092"
 			(at 34.29 274.32 0)
 			(effects
 				(font
@@ -16682,6 +16556,74 @@
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 170.18 218.44 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "162fccaf-a73f-46af-ad93-d96d463667a2")
+		(property "Reference" "JP21"
+			(at 170.18 216.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 170.18 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 170.18 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 170.18 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5222dfce-c47d-4f35-a135-42b5628ac82e")
+		)
+		(pin "1"
+			(uuid "9a65d0a8-d094-48de-b621-538b0e55d9ca")
+		)
+		(instances
+			(project "STM32H7B0_devboard"
+				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6"
+					(reference "JP21")
 					(unit 1)
 				)
 			)
@@ -16739,7 +16681,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25152"
+		(property "LCSC" "C25092"
 			(at 49.53 274.32 0)
 			(effects
 				(font
@@ -17015,7 +16957,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C60133"
+		(property "LCSC" "C15195"
 			(at 165.1 269.24 0)
 			(effects
 				(font
@@ -17091,7 +17033,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C60490"
+		(property "LCSC" "C25744"
 			(at 66.04 245.11 0)
 			(effects
 				(font
@@ -17449,7 +17391,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C14445"
+		(property "LCSC" "C1525"
 			(at 110.49 29.21 0)
 			(effects
 				(font
@@ -17769,7 +17711,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25933"
+		(property "LCSC" "C25879"
 			(at 151.13 163.83 0)
 			(effects
 				(font
@@ -18183,7 +18125,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C965799"
+		(property "LCSC" "C2286"
 			(at 151.13 39.37 0)
 			(effects
 				(font
@@ -18209,7 +18151,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 175.26 215.9 0)
+		(at 175.26 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18217,7 +18159,7 @@
 		(dnp no)
 		(uuid "42f6bf49-613e-4300-8f1c-8cea63adb83b")
 		(property "Reference" "#PWR027"
-			(at 175.26 219.71 0)
+			(at 175.26 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18226,7 +18168,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 174.752 212.344 0)
+			(at 174.752 205.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18234,7 +18176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 215.9 0)
+			(at 175.26 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18243,7 +18185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 215.9 0)
+			(at 175.26 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18252,7 +18194,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 175.26 215.9 0)
+			(at 175.26 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18896,7 +18838,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C913556"
+		(property "LCSC" "C52923"
 			(at 157.48 269.24 0)
 			(effects
 				(font
@@ -19218,7 +19160,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C343040"
+		(property "LCSC" "C12530"
 			(at 29.21 166.37 0)
 			(effects
 				(font
@@ -19294,7 +19236,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25933"
+		(property "LCSC" "C25879"
 			(at 45.72 269.24 0)
 			(effects
 				(font
@@ -19370,7 +19312,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C11702"
+		(property "LCSC" "C11702"
 			(at 59.69 250.19 0)
 			(effects
 				(font
@@ -19446,7 +19388,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25152"
+		(property "LCSC" "C25092"
 			(at 189.23 120.65 0)
 			(effects
 				(font
@@ -19465,6 +19407,82 @@
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 175.26 213.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63cfa347-1140-4f75-bbb2-b9dcef718ac2")
+		(property "Reference" "R29"
+			(at 173.228 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 177.546 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 175.26 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 175.26 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25933"
+			(at 175.26 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4b8b43a-ac37-4662-a93b-5b89489d48dd")
+		)
+		(pin "2"
+			(uuid "d4e7ffef-edbf-4838-9733-12675af73233")
+		)
+		(instances
+			(project "STM32H7B0_devboard"
+				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -20301,7 +20319,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C115304"
+		(property "LCSC" "C21189"
 			(at 68.58 219.71 0)
 			(effects
 				(font
@@ -20377,7 +20395,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25933"
+		(property "LCSC" "C25879"
 			(at 33.02 209.55 0)
 			(effects
 				(font
@@ -20453,7 +20471,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C13740"
+		(property "LCSC" "C9006"
 			(at 157.48 73.66 0)
 			(effects
 				(font
@@ -21251,7 +21269,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25152"
+		(property "LCSC" "C25092"
 			(at 189.23 138.43 0)
 			(effects
 				(font
@@ -21270,85 +21288,6 @@
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Nidec_CAS-120A1")
-		(at 167.64 220.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "865825d0-bfad-4208-bbe2-a9a17f398b02")
-		(property "Reference" "SW1"
-			(at 167.64 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BOOT_SEL"
-			(at 167.64 226.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-			(at 167.64 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-			(at 167.64 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 167.64 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" " C5962834"
-			(at 167.64 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bcb1aa33-b697-43cb-a047-9bf33da172cc")
-		)
-		(pin "3"
-			(uuid "8449e3bd-935e-41b6-bf04-e2a1e771f1fe")
-		)
-		(pin "2"
-			(uuid "a63b9d4d-3615-47cd-a594-71492547ce1d")
-		)
-		(instances
-			(project "STM32H7B0_devboard"
-				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -21407,7 +21346,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C115304"
+		(property "LCSC" "C21189"
 			(at 38.1 219.71 0)
 			(effects
 				(font
@@ -21485,7 +21424,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307423"
+		(property "LCSC" "C23733"
 			(at 95.25 210.82 0)
 			(effects
 				(font
@@ -21561,7 +21500,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25152"
+		(property "LCSC" "C25092"
 			(at 189.23 147.32 0)
 			(effects
 				(font
@@ -22026,7 +21965,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C14445"
+		(property "LCSC" "C1525"
 			(at 97.79 29.21 0)
 			(effects
 				(font
@@ -22180,7 +22119,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C14445"
+		(property "LCSC" "C1525"
 			(at 104.14 29.21 0)
 			(effects
 				(font
@@ -22526,7 +22465,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C343040"
+		(property "LCSC" "C12530"
 			(at 35.56 166.37 0)
 			(effects
 				(font
@@ -22603,7 +22542,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C115304"
+		(property "LCSC" "C21189"
 			(at 38.1 215.9 0)
 			(effects
 				(font
@@ -23099,7 +23038,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a8593f15-e6d0-48cb-9cf0-15616d43cd57")
 		(property "Reference" "U3"
 			(at 60.452 209.804 0)
@@ -23238,7 +23177,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C965807"
+		(property "LCSC" "C72038"
 			(at 171.45 105.41 0)
 			(effects
 				(font
@@ -23380,7 +23319,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C115304"
+		(property "LCSC" "C21189"
 			(at 68.58 215.9 0)
 			(effects
 				(font
@@ -23602,7 +23541,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25933"
+		(property "LCSC" "C25879"
 			(at 151.13 170.18 0)
 			(effects
 				(font
@@ -23873,7 +23812,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C115304"
+		(property "LCSC" "C21189"
 			(at 38.1 212.09 0)
 			(effects
 				(font
@@ -23949,7 +23888,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25933"
+		(property "LCSC" "C25879"
 			(at 38.1 269.24 0)
 			(effects
 				(font
@@ -23968,6 +23907,74 @@
 			(project "STM32H7B0_devboard"
 				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 170.18 223.52 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6810ba6-eea5-4123-bc60-c65866dae93f")
+		(property "Reference" "JP22"
+			(at 170.18 221.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 170.18 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 170.18 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 170.18 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac2e3fd1-c88c-4665-bd3e-8ba426b7fe2e")
+		)
+		(pin "1"
+			(uuid "da5600a1-60e4-476d-8e6d-aa66ec6eeadb")
+		)
+		(instances
+			(project "STM32H7B0_devboard"
+				(path "/0c02ba0f-c40f-484f-a270-dfb4a249f2e6"
+					(reference "JP22")
 					(unit 1)
 				)
 			)
@@ -24025,7 +24032,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5213671"
+		(property "LCSC" "C32346"
 			(at 189.23 71.12 0)
 			(effects
 				(font
@@ -24103,7 +24110,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C14445"
+		(property "LCSC" "C1525"
 			(at 123.19 29.21 0)
 			(effects
 				(font
@@ -24197,7 +24204,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 226.06 0)
+		(at 175.26 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24205,7 +24212,7 @@
 		(dnp no)
 		(uuid "db3128ef-7845-409f-9662-25ccc4183c7f")
 		(property "Reference" "#PWR029"
-			(at 175.26 232.41 0)
+			(at 175.26 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24214,7 +24221,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 229.87 0)
+			(at 175.26 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24222,7 +24229,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 226.06 0)
+			(at 175.26 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24231,7 +24238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 226.06 0)
+			(at 175.26 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24240,7 +24247,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 226.06 0)
+			(at 175.26 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24382,7 +24389,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C916390"
+		(property "LCSC" "C2146"
 			(at 74.93 250.19 0)
 			(effects
 				(font
@@ -24461,7 +24468,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C25989"
+		(property "LCSC" " C22843"
 			(at 163.83 105.41 0)
 			(effects
 				(font
@@ -24997,7 +25004,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C14445"
+		(property "LCSC" "C1525"
 			(at 95.25 207.01 0)
 			(effects
 				(font
@@ -25141,7 +25148,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307423"
+		(property "LCSC" "C23733"
 			(at 85.09 29.21 0)
 			(effects
 				(font
